@@ -75,7 +75,7 @@ if (isset($_GET['search'])) {
                         <h4><?= number_format($row['tong_tien'], 0, '', '.') ?></h4>
                     </td>
                     <td scope="col">
-                        <h4><a href="./category/huy.php?ma=<?= $row['ma_hoadon'] ?>">Hủy</a></h4>
+                        <h5 style="color: gray;">Đang xử lí</h5>
                     </td>
                 </tr>
             <?php } ?>
