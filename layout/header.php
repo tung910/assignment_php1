@@ -33,7 +33,7 @@
             <!-- <a href="#contact">contact</a> -->
         </nav>
         <div class="icons">
-        <a href="?page=dsythich" class="fa fa-heart fa-2x" aria-hidden="true"></a>
+        <!-- <a href="?page=dsythich" class="fa fa-heart fa-2x" aria-hidden="true"></a> -->
             <a href="?page=giohang" class="fas fa-2x fa-shopping-cart"></a>
             <a href="./admin/auth/dangnhaps.php" class="fas fa fa-3x fa-sign-in" alt="Đăng nhập"></a>
             <?php if (isset($_SESSION['email'])) { ?><a href="http://localhost/web_ban_hang/admin/auth/logout.php" class="fas fa fa-sign-out"></a> <?php } ?>
